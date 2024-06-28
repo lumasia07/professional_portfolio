@@ -40,7 +40,7 @@ export default function Page() {
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromRight transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Technical Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-gray-700 p-4 rounded-lg">
+              <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
                   <li>HTML/CSS</li>
                   <li>JavaScript</li>
@@ -49,7 +49,7 @@ export default function Page() {
                   <li>Responsive Design</li>
                 </ul>
               </div>
-              <div className="bg-gray-700 p-4 rounded-lg">
+              <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
                   <li>Version Control (Git)</li>
                   <li>Build Tools (Webpack)</li>
@@ -65,8 +65,8 @@ export default function Page() {
 
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromLeft transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Non-Technical Skills</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-gray-700 p-4 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 transform transition-transform duration-300 hover:scale-105">
+              <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
                   <li>Human Centered Design(HCD)</li>
                   <li>Problem-Solving</li>
@@ -74,7 +74,7 @@ export default function Page() {
                   <li>Communication</li>
                 </ul>
               </div>
-              <div className="bg-gray-700 p-4 rounded-lg">
+              <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
                   <li>Collaboration</li>
                   <li>Adaptability</li>
