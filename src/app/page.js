@@ -15,7 +15,7 @@ export default function Page() {
       </video>
 
       {/* Profile Picture */}
-      <div className="absolute top-0 right-0 mt-8 mr-8 z-10">
+      <div className="absolute top-5 right-0 mt-12 mr-10 z-10">
         <Image
           src="/a6w87b.jpg"
           alt="Profile Picture"
