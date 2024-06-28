@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJsSquare, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -16,11 +17,20 @@ export default function Page() {
         <source src="/background.mp4" type="video/mp4" />
       </video>
 
+      {/* Profile Picture */}
+      <div className="absolute top-0 right-0 mt-8 mr-8 z-10">
+        <img
+          src="/profile.jpg"
+          alt="Profile Picture"
+          className="h-profile-pic w-profile-pic rounded-full border-4 border-white object-contain"
+        />
+      </div>
+
       {/* Main Content */}
-      <div className="relative z-10 w-full flex flex-col items-center">
+      <div className="relative z-10 w-full flex flex-col items-center top-12">
         {/* Header */}
         <header className="w-full flex justify-between items-center p-6 animate-fadeIn">
-          <div className="text-2xl font-bold">My Portfolios</div>
+          <div className="text-2xl font-bold">My Portfolio</div>
         </header>
 
         {/* Hero Section */}

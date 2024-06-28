@@ -44,6 +44,10 @@ module.exports = {
       scale: {
         120: '1.2',
       },
+      // Custom sizes for profile picture
+      spacing: {
+        'profile-pic': '100px', // Adjust as per your preference
+      },
     },
   },
   plugins: [],
