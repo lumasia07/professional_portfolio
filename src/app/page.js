@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJsSquare, faHtml5, faCss3Alt, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJsSquare, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Page() {
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white">
+      {/* Video Background */}
       <video
         autoPlay
         loop
@@ -15,20 +16,25 @@ export default function Page() {
         <source src="/background.mp4" type="video/mp4" />
       </video>
 
+      {/* Main Content */}
       <div className="relative z-10 w-full flex flex-col items-center">
+        {/* Header */}
         <header className="w-full flex justify-between items-center p-6 animate-fadeIn">
-          <div className="text-2xl font-bold">My Portfolio</div>
+          <div className="text-2xl font-bold">My Portfolios</div>
         </header>
 
+        {/* Hero Section */}
         <div className="text-center mb-12 mt-6 animate-fadeIn">
-          <h1 className="text-6xl font-bold mb-4">Hello, I am Lumasia</h1>
-          <h2 className="text-3xl font-semibold text-gray-200">A Frontend Engineer</h2>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4">Hello, I am Lumasia</h1>
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-200">A Frontend Engineer</h2>
         </div>
 
+        {/* Main Content Section */}
         <section className="w-full max-w-4xl px-4 sm:px-6 lg:px-8 mb-16 relative z-10">
+          {/* About Me */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromLeft transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">About Me</h3>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-300 leading-relaxed">
               I am a passionate frontend developer with extensive experience in creating beautiful and functional web applications. Proficient in modern UI libraries, design kits, and frameworks, I bring a meticulous and innovative approach to every project. My fervent problem-solving skills and commitment to best practices ensure high-quality, maintainable code. With a keen eye for detail and a knack for critical thinking, I excel at tackling complex challenges and delivering seamless user experiences.
               <br /><br />
               In addition to my technical expertise, I am a proactive collaborator who thrives in dynamic environments. I continuously stay ahead of industry trends, leveraging the latest technologies to drive innovation. My portfolio showcases a diverse range of projects, from responsive designs to full-scale web applications, reflecting my ability to adapt and excel in various contexts.
@@ -37,6 +43,7 @@ export default function Page() {
             </p>
           </div>
 
+          {/* Technical Skills */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromRight transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Technical Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -45,7 +52,7 @@ export default function Page() {
                   <li>HTML/CSS</li>
                   <li>JavaScript</li>
                   <li>React</li>
-                  <li>NextJS</li>
+                  <li>Next.js</li>
                   <li>Responsive Design</li>
                 </ul>
               </div>
@@ -63,12 +70,13 @@ export default function Page() {
             </div>
           </div>
 
+          {/* Non-Technical Skills */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromLeft transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Non-Technical Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 transform transition-transform duration-300 hover:scale-105">
               <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
-                  <li>Human Centered Design(HCD)</li>
+                  <li>Human Centered Design (HCD)</li>
                   <li>Problem-Solving</li>
                   <li>Attention to Detail</li>
                   <li>Communication</li>
@@ -88,6 +96,7 @@ export default function Page() {
             </div>
           </div>
 
+          {/* Projects */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg shadow-lg mb-8 animate-slideInFromRight transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Projects</h3>
             <div className="space-y-8">
@@ -106,6 +115,7 @@ export default function Page() {
             </div>
           </div>
 
+          {/* Tools */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg mb-8 animate-slideInFromRight transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Tools</h3>
             <div className="flex flex-wrap gap-8">
@@ -124,6 +134,7 @@ export default function Page() {
             </div>
           </div>
 
+          {/* Contact */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg animate-slideInFromBottom transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Contact</h3>
             <p className="text-lg text-gray-300">
