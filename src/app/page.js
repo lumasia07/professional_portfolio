@@ -26,34 +26,34 @@ export default function Page() {
       </div>
 
       <div className="mt-5">
-              <ul className="flex space-x-4">
-                <li>
-                  <a href="https://twitter.com/GOATLumasia" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-x-twitter text-white"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:lumasiastancelaus@gmail.com">
-                    <i className="fa-solid fa-envelope text-white"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://linkedin.com/in/lumasia-stancelaus" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-linkedin text-white"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/lumasia07" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-github text-white"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/@lumasiastancelaus" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-medium text-white"></i>
-                  </a>
-                </li>
-              </ul>
-        </div>
+        <ul className="flex space-x-4">
+          <li>
+            <a href="https://twitter.com/GOATLumasia" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-x-twitter text-white"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:lumasiastancelaus@gmail.com">
+              <i className="fa-solid fa-envelope text-white"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/lumasia-stancelaus" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-linkedin text-white"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/lumasia07" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-github text-white"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@lumasiastancelaus" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-medium text-white"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
       {/* Main Content */}
       <div className="relative z-10 w-full flex flex-col items-center top-12">
@@ -158,10 +158,16 @@ export default function Page() {
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg animate-slideInFromBottom transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Contact</h3>
             <p className="text-lg text-gray-300">
-              You can reach me at myemail@example.com for any inquiries or collaborations.
+              You can reach me at <a href="mailto:lumasiastancelaus@gmail.com" className="text-blue-400 underline">lumasiastancelaus@gmail.com</a> for any inquiries or collaborations.<br />
+              Tel No: <a href="tel:+254798544949" className="text-blue-400 underline">+254-798544949</a>
             </p>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="w-full text-center py-4 bg-gray-800 bg-opacity-75 mt-auto">
+          <p className="text-gray-400">© 2024 Lumasia Stancelaus. All rights reserved.</p>
+        </footer>
       </div>
     </div>
   );
