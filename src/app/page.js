@@ -1,7 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJsSquare, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -19,12 +16,44 @@ export default function Page() {
 
       {/* Profile Picture */}
       <div className="absolute top-0 right-0 mt-8 mr-8 z-10">
-        <img
-          src="/profile.jpg"
+        <Image
+          src="/a6w87b.jpg"
           alt="Profile Picture"
+          width={150}
+          height={150}
           className="h-profile-pic w-profile-pic rounded-full border-4 border-white object-contain"
         />
       </div>
+
+      <div className="mt-5">
+              <ul className="flex space-x-4">
+                <li>
+                  <a href="https://twitter.com/GOATLumasia" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-x-twitter text-white"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:lumasiastancelaus@gmail.com">
+                    <i className="fa-solid fa-envelope text-white"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/lumasia-stancelaus" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-linkedin text-white"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/lumasia07" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-github text-white"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@lumasiastancelaus" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-medium text-white"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
 
       {/* Main Content */}
       <div className="relative z-10 w-full flex flex-col items-center top-12">
@@ -125,30 +154,11 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Tools */}
-          <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg mb-8 animate-slideInFromRight transform transition-transform duration-300 hover:scale-105">
-            <h3 className="text-3xl font-semibold mb-4">Tools</h3>
-            <div className="flex flex-wrap gap-8">
-              <div className="tool-icon flex flex-col items-center transition-transform duration-300 ease-in-out transform hover:scale-120">
-                <FontAwesomeIcon icon={faReact} className="text-4xl text-blue-300" />
-              </div>
-              <div className="tool-icon flex flex-col items-center transition-transform duration-300 ease-in-out transform hover:scale-120">
-                <FontAwesomeIcon icon={faJsSquare} className="text-4xl text-yellow-300" />
-              </div>
-              <div className="tool-icon flex flex-col items-center transition-transform duration-300 ease-in-out transform hover:scale-120">
-                <FontAwesomeIcon icon={faCss3Alt} className="text-4xl text-teal-300" />
-              </div>
-              <div className="tool-icon flex flex-col items-center transition-transform duration-300 ease-in-out transform hover:scale-120">
-                <FontAwesomeIcon icon={faHtml5} className="text-4xl text-orange-300" />
-              </div>
-            </div>
-          </div>
-
           {/* Contact */}
           <div className="bg-gray-800 bg-opacity-75 p-8 rounded-lg animate-slideInFromBottom transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-3xl font-semibold mb-4">Contact</h3>
             <p className="text-lg text-gray-300">
-              You can reach me at <a href="mailto:your-email@example.com" className="text-blue-400"><FontAwesomeIcon icon={faEnvelope} className="mr-2" size="lg" />your-email@example.com</a>.
+              You can reach me at myemail@example.com for any inquiries or collaborations.
             </p>
           </div>
         </section>
