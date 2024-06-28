@@ -29,12 +29,20 @@ module.exports = {
           '0%': { transform: 'translateY(100%)' },
           '100%': { transform: 'translateY(0)' },
         },
+        gradient: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
       },
       animation: {
-        fadeIn: 'fadeIn 1s ease-in-out',
+        fadeIn: 'fadeIn 3s ease-in-out',
         slideInFromLeft: 'slideInFromLeft 1s ease-in-out',
         slideInFromRight: 'slideInFromRight 1s ease-in-out',
         slideInFromBottom: 'slideInFromBottom 1s ease-in-out',
+        gradient: 'gradient 15s infinite', // Adjust duration as needed
+      },
+      scale: {
+        120: '1.2',
       },
     },
   },
