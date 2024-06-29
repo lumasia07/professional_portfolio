@@ -92,6 +92,7 @@ export default function Page() {
                   <li>JavaScript</li>
                   <li>React</li>
                   <li>Next.js</li>
+                  <li>Tailwind CSS</li>
                   <li>Responsive Design</li>
                 </ul>
               </div>
@@ -101,9 +102,8 @@ export default function Page() {
                   <li>Build Tools (Webpack)</li>
                   <li>Testing (Selenium)</li>
                   <li>APIs (RESTful)</li>
-                  <li>Performance Optimization</li>
-                  <li>Accessibility</li>
-                  <li>Design Tools (Figma, Sketch)</li>
+                  <li>Design Tools (Figma, Canva)</li>
+                  <li>NodeJS</li>
                 </ul>
               </div>
             </div>
@@ -116,14 +116,14 @@ export default function Page() {
               <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
                   <li>Human Centered Design (HCD)</li>
-                  <li>Problem-Solving</li>
+                  <li>Complex Problem-Solving</li>
                   <li>Attention to Detail</li>
                   <li>Communication</li>
+                  <li>Collaboration</li>
                 </ul>
               </div>
               <div className="bg-gray-700 p-4 rounded-lg transform transition-transform duration-300 hover:scale-105">
                 <ul className="list-disc list-inside text-lg text-gray-300 space-y-4">
-                  <li>Collaboration</li>
                   <li>Adaptability</li>
                   <li>Time Management</li>
                   <li>Creativity</li>
