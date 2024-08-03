@@ -19,14 +19,14 @@ export default function Page() {
         <Image
           src="/a6w87b.jpg"
           alt="Profile Picture"
-          width={150}
+           width={150}
           height={150}
           className="h-profile-pic w-profile-pic rounded-full border-4 border-white object-contain"
         />
       </div>
 
-      <div className="mt-5">
-        <ul className="flex space-x-4">
+      <div className="mt-5 border px-10 py-3 md:px-36 rounded-md border-gray-300">
+        <ul className="flex space-x-7 md:space-x-20">
           <li>
             <a href="https://twitter.com/GOATLumasia" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-x-twitter text-white"></i>
