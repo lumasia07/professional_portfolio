@@ -25,7 +25,7 @@ export default function Page() {
         />
       </div>
 
-      <div className="mt-5 border px-10 py-3 md:px-36 rounded-md border-gray-300">
+      <div className="my-5 border px-10 py-3 md:px-36 rounded-md border-gray-300">
         <ul className="flex space-x-7 md:space-x-20">
           <li>
             <a href="https://twitter.com/GOATLumasia" target="_blank" rel="noopener noreferrer">
